@@ -78,8 +78,8 @@
             updateScoreElement();
 
             document.querySelector('.js-result').innerHTML = result;
-            document.querySelector('.js-moves').innerHTML =` You <img src="${playerMove}-emoji.png" class="move-icon" >
-        <img src ="${computerMove}-emoji.png"class="move-icon">Computer`;
+            document.querySelector('.js-moves').innerHTML =` You <img src="/images/${playerMove}-emoji.png" class="move-icon" >
+        <img src ="/images/${computerMove}-emoji.png"class="move-icon">Computer`;
 
            
             
@@ -110,5 +110,6 @@ Wins:${score.Wins} Losses:${score.losses} Ties:${score.ties}`); */
             return computerMove;
 
         }
+
 
 
