@@ -27,7 +27,6 @@
             } else {
                 clearInterval(intervalid);
                 isautoplaying = false;
-                querySelector
             }
            
         }
@@ -110,6 +109,7 @@ Wins:${score.Wins} Losses:${score.losses} Ties:${score.ties}`); */
             return computerMove;
 
         }
+
 
 
 
